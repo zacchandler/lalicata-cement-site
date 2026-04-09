@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/lalicata-cement-site/',
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
